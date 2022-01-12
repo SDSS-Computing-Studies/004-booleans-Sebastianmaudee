@@ -31,3 +31,17 @@ Enter a number: 10000
 
 
 """
+
+x = input("Enter number")
+x = int(x)
+if x > 1000 or x ==1000:
+    print("The number is or is larger than 1000")
+else:
+    if x > 100 or x == 100:
+        print("The number is or is larger than 100")
+    else:
+        if x > 10 or x == 10:
+            print("The number is or is larger than 10")
+        else:
+            if x > 0 or x == 0:
+                print("The number is 0 or a number up to 10")
