@@ -33,3 +33,33 @@ that is an obtuse triangle
 
 
 """
+import math
+a = input("enter first side length")
+b = input("enter second side length")
+c = input("enter third side length")
+
+list1 = [a,b,c]
+
+
+list1 = sorted(list1)
+
+d = (list1[2])
+e = (list1[1])
+f = (list1[0])
+
+d = int(d)
+e = int(e)
+f = int(f)
+
+
+g = (e ** 2) + (f ** 2)
+
+h = d ** 2
+
+z = h + g
+
+
+if g == h:
+    print("this is a right angle triangle")
+else:
+    print("that is an obtuse")
