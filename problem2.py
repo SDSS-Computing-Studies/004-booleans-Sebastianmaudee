@@ -13,7 +13,7 @@
 import math
 x = input("enter a number")
 x = float(x)
-d = round(d)
+d = round(x)
 if x == d:
     print("the number is an integer")
 else:
