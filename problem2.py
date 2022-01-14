@@ -11,12 +11,12 @@
 # "the number is an integer"
 # "the number is not an integer"
 import math
-a = input("enter a number ")
+a = input("enter a number")
 
 a = float(a)
 b = round(a)
 if a == b:
-    print("the number is an integer ")
+    print("the number is an integer")
 else:
-    print("the number is not integer ")
+    print("the number is not integer")
 
