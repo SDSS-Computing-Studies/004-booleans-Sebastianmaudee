@@ -30,9 +30,9 @@ the equation can not be factored
 
 """
 
-a = input("enter a")
-b = input("enter b")
-c = input("enter c")
+a = input("enter a: ")
+b = input("enter b: ")
+c = input("enter c: ")
 
 
 
@@ -48,5 +48,3 @@ if w < 0:
 else:
     if g == f:
         print("the equation can be factored")
-    else:
-        print("the equation can not be factored")
