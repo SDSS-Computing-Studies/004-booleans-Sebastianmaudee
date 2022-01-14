@@ -23,7 +23,7 @@ negative
 x = input("number")
 x = int(x)
 if x > 0:
-    print("Positive")
+    print("positive")
 else:
     if x == 0:
         print("zero")
