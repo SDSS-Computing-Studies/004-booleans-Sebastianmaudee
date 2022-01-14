@@ -48,3 +48,5 @@ if w < 0:
 else:
     if g == f:
         print("the equation can be factored")
+    else:
+        print("the equation can not be factored")
