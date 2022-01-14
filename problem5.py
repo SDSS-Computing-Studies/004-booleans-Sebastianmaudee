@@ -29,3 +29,24 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+a = input("enter a")
+b = input("enter b")
+c = input("enter c")
+
+
+
+a = int(a)
+b = int(b)
+c = int(c)
+
+w = (b ** 2) - 4 * a * c
+g = w ** 1/2
+f = round(g)
+if w < 0:
+    print("the equation can't be facotred")
+else:
+    if g == f:
+        print("the equation can be factored")
+    else:
+        print("the equation cannot be factored")
