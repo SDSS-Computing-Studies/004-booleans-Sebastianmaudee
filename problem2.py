@@ -17,5 +17,5 @@ d = round(x)
 if x == d:
     print("the number is an integer")
 else:
-    print("the number is not integer")
+    print("the number is not an integer")
 
